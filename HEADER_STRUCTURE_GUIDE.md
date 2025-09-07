@@ -3,6 +3,7 @@
 ## 📋 Overview
 This document details the structure and usage of all header components in the Fake Detector application. Each header serves different purposes and targets specific user experiences.
 
+
 ---
 
 ## 🎯 Header Components Map
