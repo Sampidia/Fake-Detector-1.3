@@ -38,7 +38,7 @@ model User {
   name              String?     @db.VarChar(255)
   email             String      @unique
   emailVerified     DateTime?
-  image             String?
+  image             String?   @db.Text
   pointsBalance     Int         @default(5)
   dailyPointsLastGiven String   @default("")
   createdAt         DateTime    @default(now())
